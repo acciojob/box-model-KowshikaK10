@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+.container{
+	margin:10px;
+	width:600px;
+	height:200px;
+	background-color:grey;
+	border:5px solid black;
+	border-radius:40px;
+	display:flex;	
+	justify-content: center;
+	align-items: center;
+}
+.green,.red,.yellow{
+	width:100px;
+	height:100px;
+	border-radius:60%;
+	text-align:center;
+	margin:10px;
+}
+.green{
+	background-color:green;
+}
+.red{
+	background-color:red;
+}
+.yellow{
+	background-color:yellow;
+}
